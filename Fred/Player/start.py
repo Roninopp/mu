@@ -8,7 +8,7 @@ from config import START_PIC, UPDATES_CHANNEL, GROUP_SUPPORT
 
 
 ALIVE_PIC = START_PIC
-HOME_TEXT = "👋🏻 **Konnichiwa [{}](tg://user?id={})** \n\nIm **𝙁𝙧𝙚𝙙 𝙢𝙪𝙨𝙞𝙘**. \n**I Can Stream Lives, Radios, Raid, Vc Raid, YouTube Videos & Telegram Video Files On Voice Chat Of Telegram Groups**"
+HOME_TEXT = "👋🏻 **Konnichiwa [{}](tg://user?id={})** \n\nIm **Fantstic Music bot**. \n**I Can Stream Lives, Radios, Raid, Vc Raid, YouTube Videos & Telegram Video Files On Voice Chat Of Telegram Groups**"
 HELP_TEXT = """
 🏷️ **Setup Guide** :
 
@@ -87,14 +87,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         USERNAME = get_me.username
         buttons = [
             [
-                InlineKeyboardButton("➕ Add Fred ➕", url='https://t.me/{USERNAME}?startgroup=true'),
+                InlineKeyboardButton("➕ Add Fantastic➕", url='https://t.me/{USERNAME}?startgroup=true'),
             ],
             [
                 InlineKeyboardButton("🚑 Support", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("🌐 Owner", url=f"https://t.me/Meawtheronaldo"),
+                InlineKeyboardButton("🌐 Owner", url=f"https://t.me/DushmanXRonin"),
             ],
             [
-                InlineKeyboardButton("🧪 Source Code", url="https://github.com/Fredmusicbot/Fred_Music"),
+                InlineKeyboardButton("Channel", url="https://t.me/Ronin_Fighters_Fd"),
                 InlineKeyboardButton("⚙️ Help", callback_data="help"),
             ],
             ]
@@ -182,14 +182,14 @@ async def vcstart(client: Client, message: Message):
     USERNAME = get_me.username
     buttons = [
             [
-                InlineKeyboardButton("➕ Add Fred ➕", url=f'https://t.me/{USERNAME}?startgroup=true'),
+                InlineKeyboardButton("➕ Add Fantastic➕", url=f'https://t.me/{USERNAME}?startgroup=true'),
             ],
             [
                 InlineKeyboardButton("🚑 Support", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("🌐 Owner", url=f"https://t.me/Meawtheronaldo"),
+                InlineKeyboardButton("🌐 Owner", url=f"https://t.me/DushmanXRonin"),
             ],
             [
-                InlineKeyboardButton("🧪 Source Code", url="https://github.com/Fredmusicbot/Fred_Music"),
+                InlineKeyboardButton("🧪 channel", url="https://t.me/Ronin_Fighters_Fd"),
                 InlineKeyboardButton("⚙️ Help", callback_data="help"),
             ],
             ]
