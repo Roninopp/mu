@@ -176,8 +176,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             pass
 
 
-@Client.on_message(filters.command(["start"]) & filters.private)
-async def start(client: Client, message: Message):
+@Client.on_message(filters.command(["vcstart"]) & filters.private)
+async def vcstart(client: Client, message: Message):
     get_me = await client.get_me()
     USERNAME = get_me.username
     buttons = [
